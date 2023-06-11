@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.holder-education {
+    height: 150px;
+    width: 340px;
+    border: 4px solid rgb(201, 201, 201);
+    background-color: rgb(238, 238, 238);
+}
+.education-text {
+    background-color: rgb(51, 51, 51);
+    height: 40px;
+    width: inherit;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    padding-top: 10px;
+}
+.education-text-2 {
+    margin-left: 20px;
+}
+.line1 {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.dates {
+    font-size: 18px;
+    color: grey;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.skills {
+    font-size: 18px;
+    margin-left: 10px;
+}

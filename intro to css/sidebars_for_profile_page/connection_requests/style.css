@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.connection-requests {
+    height: 230px;
+    width: 300px;
+    border: 4px solid rgb(201, 201, 201);
+    background-color: rgb(238, 238, 238);
+}
+.accept {
+    margin-left: 40px;
+}
+.accepttwo {
+    margin-right: 6px;
+}
+.reject {
+    margin-left: -4px;
+    margin-right: 10px;
+}
+.todd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.phil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(85, 85, 85);
+    width: inherit;
+}
+.connection-requests-inside {
+    color: white;
+}
+.two {
+    color: black;
+    margin: 10px 15px;
+    padding: 4px 13px;
+    background-color: silver;
+    border: 20px;
+    border-radius: 50%;
+}
+p {
+    font-size: 25px;
+}
+.toddpic {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.philpic {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.spaceone {
+    margin-bottom: 15px;
+}
+.spacetwo {
+    margin-top: 20px;
+}
+.philsname {
+    margin-right: 52px;
+    margin-left: 8px;
+}

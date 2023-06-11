@@ -1,0 +1,38 @@
+.row1 {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+}
+
+.row3 {
+    display: flex;
+}
+
+.col {
+    background-color: teal;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.col-2 {
+    background-color: teal;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: teal;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    flex: 3;
+}

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.holder {
+    background-color: silver;
+    height: 380px;
+    width: inherit;
+    padding: 5px;
+}
+
+.blue-header {
+    background-color: teal;
+    height: 125px;
+    width: inherit;
+}
+
+.white-bottom {
+    background-color: white;
+    height: 250px;
+    width: inherit;
+    padding-top: 1px;
+}
+
+.profile-icon {
+    position: fixed;
+    top: 77px;
+    margin-left: 10px;
+    filter: invert(100);
+    border: 7px solid white;
+    border-radius: 50%;
+}
+
+.border-2 {
+    position: fixed;
+    top: 71px;
+    margin-left: 5px;
+    border: 12px solid white;
+    border-radius: 50%;
+}
+
+.name {
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+.location {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.location2 {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 2px;
+
+}
+
+.work-skills {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.description {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.settings {
+    margin-left: 10px;
+    margin-top: 8px;
+    align-items: center;
+    display: flex;
+}
+
+a {
+    margin-left: 8px;
+}

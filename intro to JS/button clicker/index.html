@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="topbar">
+            <div class="dojonary">
+                <p class="dojonaryheader">Dojonary</p>
+            </div>
+            <div>
+                <input class="search" type="text" name="search" placeholder="Search">
+            </div>
+            <div>
+                <button onclick="logout()" id="login">Login</button>
+            </div>
+        </div>
+        <div class="definitionbox">
+            <div class="dojonarycontent">
+                <div>Dojonary is defined by YOU</div>
+            </div>
+            <button onclick="hide(this)" id="buttondefinition">Add Definition</button>
+        </div>
+        
+        <div class="row1">
+            <div class="ninjabox">
+                <div class="ninja1content">
+                    <div class="ninja1">ninja</div>
+                    <div class="noun1">noun</div>
+                    <div class="plural1">Plural:ninjas</div>
+                    <button onclick="box1like()" id="box1button">16 likes</button>
+                    </div>
+                    <div class="sentencebox1">
+                    <div class="sentence1">A practioner skilled in the <a href="">Japanese</a> art of <a href="">ninjitsu</a></div>
+                    </div>
+            </div>
+            
+        </div>
+        <div class="row2">
+            <div class="ninjabox2">
+                <div class="ninja2content">
+                    <div class="ninja2">ninja</div>
+                    <div class="noun2">noun</div>
+                    <div class="plural2">Plural:ninjas</div>
+                    <button id="box2button">37 likes</button>
+                </div>
+                <div class="sentencebox2">
+                <div class="sentence2">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

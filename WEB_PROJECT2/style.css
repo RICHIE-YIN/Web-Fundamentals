@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.imgtop {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0px 14px;
+    padding: 10px 10px;
+    background-color: white ;
+}
+
+#heartimg {
+    height: 20px;
+    width: 20px;
+}
+
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    height: 50px;
+    width: inherit;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    /* border: 4px solid black; */
+}
+
+.justdessert {
+    color: white;
+}
+
+h1 span {
+    color: orange;
+}
+
+.joinbox {
+    width: 60px;
+    height: 30px;
+    background-color: orange;
+    color: black;
+    box-shadow: 3px 3px;
+    font-size: 18px;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.loginbox {
+    width: 60px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px black;
+    font-size: 18px;
+    border: 3px solid black;
+}
+
+.navbar {
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    height: 125px;
+    width: inherit;
+    background-color: rgb(255, 204, 110);
+    margin-bottom: 20px;
+}
+
+.search {
+    display: flex;
+}
+
+.searchbar {
+    height: 30px;
+    width: 200px;
+}
+
+.go {
+    height: 35px;
+    width: 50px;
+    margin-left: -10px;
+    background-color: rgb(41, 62, 255);
+    color: white;
+    font-size: 18px;
+    box-shadow: 3px 3px black;
+}
+
+.foodlist {
+    display: flex;
+}
+
+.caketext {
+    margin-left: 35px;
+}
+
+.cookiestext {
+    margin-left: 25px;
+}
+
+.icecreamtext {
+    margin-left: 20px;
+}
+
+.piestext {
+    margin-left: 40px;
+}
+
+.cakesbox {
+    padding: 0px 25px 0px 75px;
+}
+
+.cookiesbox {
+    padding: 0px 25px;
+}
+
+.icecreambox {
+    padding: 0px 25px;
+}
+
+.piebox {
+    padding: 0px 25px;
+}
+
+.leftcollum {
+    width: 550px;
+    height: 425px;
+    padding: 10px 15px;
+    background-color: rgb(230, 230, 230);
+}
+
+.box1left {
+margin-left: 15px;
+}
+
+.recipeoftheday {
+    margin-left: 150px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.tartimg {
+    width: 525px;
+    height: 300px;
+}
+
+.likesbundle1 {
+    display: flex;
+    margin-top: -15px;
+    margin-left: 450px;
+}
+
+.likes1 {
+    border: none;
+    margin-left: 10px;
+    width: 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+.rightcollum {
+    float: right;
+    margin-top: -450px;
+}
+
+.by1 {
+    margin-bottom: 15px;
+}
+
+.fullrecipe {
+    margin-left: 200px;
+}
+
+.box1right {
+    float: right;
+    padding: 5px 15px;
+    margin: 15px 0px;
+}
+
+.recommended {
+    padding: 10px 10px;
+    border-bottom: 2px solid black;
+}
+
+.recommendedtext {
+    font-size: 20px;
+}
+
+.macaronsimg {
+    width: 350px;
+    height: 200px;
+}
+
+.likesbundle2 {
+    display: flex;
+    margin-top: -15px;
+    margin-left: 275px;
+}
+
+.likes2 {
+    border: none;
+    margin-left: 10px;
+    width: 20px;
+}
+
+.cremebruleeimg {
+    width: 350px;
+    height: 200px;
+}
+
+.box2right {
+    padding: 5px 15px;
+}
+
+.likesbundle3 {
+    display: flex;
+    margin-top: -15px;
+    margin-left: 275px;
+}
+
+.likes3 {
+    border: none;
+    margin-left: 10px;
+    width: 20px;
+}

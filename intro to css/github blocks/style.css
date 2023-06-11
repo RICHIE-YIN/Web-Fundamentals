@@ -1,0 +1,39 @@
+h1 {
+    font-style: oblique;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.container {
+    background-color: silver;
+    height: 700px;
+    width: 600px;
+    padding: 20px;
+
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 20px
+}
+
+.row-3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: auto;
+    padding: 20px
+}
